@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Jednoduchá kalkulačka</title>
+  <link rel="stylesheet" href="kalkulacka.css">
+  <script src="kalkulacka.js" defer></script>
+</head>
+<body>
+  <h1>Moje kalkulačka</h1>
+
+  <div class="kalkulacka">
+    <input type="text" id="cislo1" placeholder="První číslo">
+    <input type="text" id="cislo2" placeholder="Druhé číslo">
+
+    <div class="tlacitka">
+      <button data-operace="plus">+</button>
+      <button data-operace="minus">−</button>
+      <button data-operace="krat">*</button>
+      <button data-operace="deleno">/</button>
+    </div>
+
+    <div id="vysledek">Zde se zobrazí výsledek</div>
+  </div>
+</body>
+</html>
